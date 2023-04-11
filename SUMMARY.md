@@ -1,3 +1,3 @@
 # Table of contents
 
-* [Welcome Page](README.md)
+* [Gitbook Guide](README.md)

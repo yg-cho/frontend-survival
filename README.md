@@ -1,6 +1,6 @@
 ---
-description: Welcome yg-cho
+description: gitbook을 적극 활용해보자.
 ---
 
-# Welcome Page
+# Gitbook Guide
 
