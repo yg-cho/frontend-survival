@@ -1,5 +1,5 @@
-# Megaptera-front
+# Table of contents
 
-* 프론트엔드 생존코스 3기
-
-* `2023.04.10` ~ `2023.07.08`
+* [README](README.md)
+* [프론트엔드 생존코스 3기](3.md)
+* [week 1](week-1.md)
