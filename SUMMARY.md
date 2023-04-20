@@ -8,3 +8,5 @@
   * [3. React](week-1/3.-react.md)
   * [4. Testing Library](week-1/4.-testing-library.md)
   * [5. Parcel & ESLint](week-1/5.-parcel-and-eslint.md)
+* [Week 2](week-2/README.md)
+  * [JSX](week-2/jsx.md)
