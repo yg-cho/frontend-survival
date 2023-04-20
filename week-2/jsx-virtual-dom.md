@@ -1,6 +1,6 @@
 # JSX와 Virtual DOM
 
-강의요약
+강의주제
 
 * JSX와 Virtual DOM에 대한 내용
 
