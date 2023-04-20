@@ -1,4 +1,4 @@
-# JSX
+# JSX와 Virtual DOM
 
 강의요약
 
