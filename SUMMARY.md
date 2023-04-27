@@ -10,3 +10,6 @@
   * [5. Parcel & ESLint](week-1/5.-parcel-and-eslint.md)
 * [Week 2](week-2/README.md)
   * [JSX와 Virtual DOM](week-2/jsx-virtual-dom.md)
+* [Week 3](week-3/README.md)
+  * [Thinking in Rect](week-3/thinking-in-rect.md)
+  * [데이터](week-3/undefined.md)
