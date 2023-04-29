@@ -12,4 +12,5 @@
   * [JSX와 Virtual DOM](week-2/jsx-virtual-dom.md)
 * [Week 3](week-3/README.md)
   * [Thinking in Rect](week-3/thinking-in-rect.md)
-  * [데이터](week-3/undefined.md)
+  * [Data](week-3/data.md)
+  * [React Component Hierarchy](week-3/react-component-hierarchy.md)
