@@ -32,10 +32,6 @@ Atomic Design
 
 <figure><img src="../.gitbook/assets/스크린샷 2023-04-29 오후 9.19.31.png" alt=""><figcaption><p><a href="https://bradfrost.com/blog/post/atomic-web-design/">https://bradfrost.com/blog/post/atomic-web-design/</a></p></figcaption></figure>
 
-
-
-
-
 #### Extract Function
 
 {% hint style="info" %}
@@ -141,4 +137,39 @@ export default function Profile() {
 }
 
 ```
+
+#### React의 State
+
+{% hint style="info" %}
+state는 "변경"을 다루기 위한 요소. "re-rendering"이란 주제에서 사용하게 됨.
+
+어떤 컴포넌트의 state가 변경되면 연결된 컴포넌트를 재렌더링 한다.
+
+일관성과 효율성을 위하여 DRY원칙을 따르는 SSOT를 만든다.
+
+DRY - Don't repest yourself(중복배제: 모든 지식은 시스템 내에서 중복없이 유일해야함)
+
+SSOT - Single source of truth(단일 진실 공급원: 저장소의 데이터를 기반으로 작동)
+{% endhint %}
+
+#### State인지 확인하기
+
+* [ ] State는 변경되어야한다. 변하지않는건 state로 다룰 가치가 없음
+* [ ] 부모 컴포넌트가 props를 통해 전달한다면 state가 아님
+* [ ] 다른 state나 props를 이용하여 계산 가능하다면 state가 아님
+
+다루는 state가 너무 많으면 복잡하다. 하지만 Typescript를 사용하여 직접 관리하는 상태의 수를 줄여 줄 수 있다. 리액트만 사용한다면, 상태에 의존하는 컴포넌트를 모두 포함하는(부모컴포넌트)가 상태를 소유 하면 됨&#x20;
+
+#### Inverse Data Flow
+
+{% hint style="info" %}
+하위(자식) 컴포넌트의 props로 함수를 전달. 흔히 콜백 함수라고 부름
+{% endhint %}
+
+### 배운점과 나의 생각
+
+1. 기존에 사용하던 방법에 대해 원론적인 부분을 다시한번 생각해보게 되었음
+2. State의 선언에 대해 다시한번 정의해보게 되었음
+3. Data Flow를 아직까지 완벽하게 나누는것 같진 않음
+4. Props를 잘쓰기위해 Typescript의 숙련이 더 필요함
 
