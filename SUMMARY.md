@@ -14,3 +14,6 @@
   * [Thinking in Rect](week-3/thinking-in-rect.md)
   * [Data](week-3/data.md)
   * [React Component Hierarchy](week-3/react-component-hierarchy.md)
+* [Week 4](week-4/README.md)
+  * [Express](week-4/express.md)
+  * [Fetch API & CORS](week-4/fetch-api-and-cors.md)
