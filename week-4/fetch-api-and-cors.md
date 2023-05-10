@@ -39,3 +39,15 @@ codefetch('http://example.com/movies.json')
 
 
 
+#### CORS (Cross-Origin Resource Sharing) 교차 출처 리소스 공유
+
+{% hint style="info" %}
+**교차 출처 리소스 공유**(Cross-Origin Resource Sharing, [CORS](https://developer.mozilla.org/ko/docs/Glossary/CORS))는 추가 [HTTP](https://developer.mozilla.org/ko/docs/Glossary/HTTP) 헤더를 사용하여, 한 [출처](https://developer.mozilla.org/ko/docs/Glossary/Origin)에서 실행 중인 웹 애플리케이션이 다른 출처의 선택한 자원에 접근할 수 있는 권한을 부여하도록 브라우저에 알려주는 체제입니다. 웹 애플리케이션은 리소스가 자신의 출처(도메인, 프로토콜, 포트)와 다를 때 교차 출처 HTTP 요청을 실행합니다.
+{% endhint %}
+
+서버에 요청하고 응답을 받아오는 것까지는 이미 진행이 다 된 상황이지만, 브라우저상에서 에러로 처리해버린다.
+
+_간단하게 REST API 서버에서 Headers에 “Access-Control-Allow-Origin” 속성을 추가해주면 되지만, 개발하는 동안 문제가 발생하면 CORS 크롬확장프로그램으로 대체하여 서버 설정이 될때까지 사용한적이 있다._
+
+
+
